@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
+      - name: Print outputs
         run: |
           echo "First output!"
           echo "Second output!"
